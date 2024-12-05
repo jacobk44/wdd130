@@ -66,3 +66,7 @@ footer img {
 footer a {
     text-decoration: none;
 }
+
+section img {
+    display: block;
+}
