@@ -10,60 +10,54 @@ body {
 }
 
 nav {
-    background-color: rgb(44, 9, 172);
-    padding: 10px;
+    background-color: steelblue;
+    display:flex;
+    padding: 1rem;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+    
 }
 
 nav a {
     color: white;
     display:block;
-    padding:20px
+    text-decoration: none;
+    font-size : 1.2rem;
 }
 
 
 h1 {
     color:darkblue;
-    padding: 2rem;
-    text-align: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+    
 }
 
 main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
-    padding: 2px;
+    padding: 1px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin: 0 0 1rem 1rem;
+    
 }
 
 p {
-    margin:5rem;
-    padding:5px
+
+    padding:4px
 }
 
 main {
-    max-width: 840px;
-    padding: 5px;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 aside{
-   width:20em;
-   text-align: center;
+   width:20rem;
    position: relative;
-}
-
-aside img {
-    width: 200px;
-    height: auto;
-    bottom: 60px;
-
-}
-aside h2 {
-    position: absolute;
-    top:15px;
-    left:100px;
-
+   grid-column: 1/2;
+   grid-row : 1/2;
 }
 
 p {padding:0;}
@@ -76,7 +70,7 @@ footer {
 
 
 ul a {
-    margin:0;
+    margin-bottom: 40px;
     padding:0;
     box-sizing: border-box;
     color: red;
@@ -98,4 +92,18 @@ ul a {
 
 .indent {
     padding-left: 2rem;
+}
+
+
+
+header,.grid, footer {
+    max-width :840px;
+    margin : 0 auto;
+
+}
+
+
+.grid{
+    display:grid;
+    align-items: center;
 }
