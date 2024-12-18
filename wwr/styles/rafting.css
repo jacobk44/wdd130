@@ -29,10 +29,7 @@ body{
         gap: 10px;
         grid-column-end: 1;
         padding-left: 2rem;
-        /*display: grid;
-        padding:0 2rem;
-        place-items: right;*/
-    }
+}
 
     .hero {
         width:100%;
@@ -98,8 +95,10 @@ footer {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    border-top: 1px solid #ccc;
-    padding-top: 20px;
+    padding-top: 5rem;
+    border-top: 1px solid #0000ff;
+
+
 }
 
 footer img {
@@ -142,11 +141,9 @@ section p {
     display: grid;
     grid-template-columns: repeat(5,1fr);
     column-gap: 1px;
-    justify-content: center;
-    gap:5px;
-    
-    /*grid-template-rows: repeat(1, 1fr)*/
+    justify-content: center;    gap:5px;
 }
+
 
 .grid-container img {
     width: 200px;
@@ -167,7 +164,7 @@ section p {
 .navigation a {
     display:block;
     color:navy;
-    padding:5px 15px ;
+    padding:5px 30px ;
     margin-left: 5px;
     border: 1px solid #333333;
     border-radius: 5px;
@@ -194,4 +191,172 @@ figcaption {
     white-space: nowrap;
     font-size: 24px;
     margin: 20px 0;
+}
+
+
+.boss h1 {
+    position: absolute;
+    top:50%;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    color:#f9f9f9;
+    padding-left: 32rem;
+    font-size: 3rem;
+
+}
+
+
+.address p {
+    padding-left: 30rem; 
+    padding-top: 5rem;
+}
+
+
+.boss img{
+    display: block;
+    width:100%;
+    height: auto;
+    align-items: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.map {
+    margin: 5px auto;
+    padding-left: 8rem;
+    padding-bottom: 5rem;
+    border-bottom: 1px solid rgba(207, 197, 197, 0.678);
+    padding-right: 4rem;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 1px;
+    justify-content: center;
+    gap:5px;
+    padding-left: 35rem;
+    width: 20%;
+    padding-bottom: 10rem;
+    padding-top:10rem;
+}
+
+header h1 {
+    padding-left: 2rem;
+}
+
+
+
+
+/* 
+This the form css
+*/
+form {
+    font-family: serif;
+    font-weight: 20px;
+    font-size: 15px;
+    color: #333;
+    background-color: #fff;
+}
+
+form header {
+    margin:0 auto;
+    width: 650px;
+}
+
+form h1 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid rgb(0 0 0/0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0/0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+label,input,button, select, textarea {
+    font-family: Roboto ,Arial,sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+
+input,select,textarea {
+    padding: 0.3rem;
+    font-size: 1.0rem;
+}
+
+input[type="radio"]{
+    width: 22px;
+    height: 22px;;
+    vertical-align: bottom;
+}
+
+button{
+    margin:1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color:  darkgreen;
+}
+
+/*.form-footer {
+    margin: 1rem auto ;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    padding-top: 10rem;
+    /*border-bottom: 1px solid #25258f91;
+}*/
+.form-item {
+align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 2fr;
+    margin-left: 0.5rem 0;
+    
+}
+
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin-left: 3rem;
+}
+
+
+.user-form {
+    padding-bottom: 10rem;
 }
